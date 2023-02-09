@@ -1,4 +1,4 @@
-var YourComponent = React.createClass({
+var Home = React.createClass({
     render: function() {
       return (
         <div>
@@ -10,8 +10,8 @@ var YourComponent = React.createClass({
           {/* --------- Boxicons CSS icons --------- */}
           <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
           <main>
+            <i className="bx bx-moon toggle-btn" />
             <div className="container">
-              <i className="bx bx-moon toggle-btn" />
               <div className="inner-box">
                 <div className="forms-wrap">
                   <form action="index.html" className="sign-in-form" autoComplete="off">
@@ -71,9 +71,9 @@ var YourComponent = React.createClass({
                 </div>
                 <div className="carousel">
                   <div className="images-wrapper">
-                    <img src="images/image1.png" className="image img-1 show" alt />
-                    <img src="images/image2.png" className="image img-2" alt />
-                    <img src="images/image3.png" className="image img-3" alt />
+                    <img src="images/image1.png" className="image img-1 show" alt="" />
+                    <img src="images/image2.png" className="image img-2" alt="" />
+                    <img src="images/image3.png" className="image img-3" alt="" />
                   </div>
                   <div className="text-slider">
                     <div className="text-wrap">
@@ -93,7 +93,6 @@ var YourComponent = React.createClass({
               </div>
             </div>
           </main>
-          {/* ---------------- JS File for form --------------------- */}
         </div>
       );
     }
