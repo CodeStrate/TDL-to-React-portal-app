@@ -1,11 +1,14 @@
 import React from 'react'
 import './App.css'
-import {motion, AnimatePresence} from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
+import programming from './programming.jpeg'
+
 
 export default function App() {
   return (
     <div className='App'>
-      <Modal><h1>Course Overview</h1></Modal>
+      <Modal><h1 >Course Overview</h1>
+      <img className='card-image' src= {programming} alt='program'></img></Modal>
     </div>
   )
 }
