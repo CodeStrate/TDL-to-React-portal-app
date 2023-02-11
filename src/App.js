@@ -8,7 +8,7 @@ import 'boxicons'
 const App = () => {
   return (
     <>
-    <box-icon name="moon"></box-icon>
+    <box-icon name="rocket"></box-icon>
     <div className='container'>
       <div className='inner-box'>
         <div className='forms-wrap'>
